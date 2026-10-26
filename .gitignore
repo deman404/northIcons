@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+publish/
+artifacts/
+
+# Local compiled copies
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+preview.png
+
+# Editor and user settings
+.vs/
+.idea/
+*.user
+*.suo
+
+# Commit the compressed library; exclude unpacked local copies.
+/Icons/
+# Keep Icons.zip and docs/screenshots/ in source control.
